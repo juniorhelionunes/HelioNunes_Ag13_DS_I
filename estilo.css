@@ -1,0 +1,72 @@
+/* =========================================
+   ESTILO GERAL DA PÁGINA
+========================================= */
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* =========================================
+   FLEXBOX
+========================================= */
+
+/* Container principal */
+.container{
+    display: flex;
+
+    /* Organiza lado a lado */
+    justify-content: space-around;
+
+    /* Permite quebrar linha em telas pequenas */
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+    padding: 20px;
+}
+
+/* =========================================
+   SEÇÕES
+========================================= */
+
+.secao{
+    background-color: white;
+
+    width: 300px;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px gray;
+
+    text-align: center;
+}
+
+/* =========================================
+   IMAGENS
+========================================= */
+
+.secao img{
+    width: 100%;
+
+    border-radius: 8px;
+
+    margin-top: 10px;
+}
+
+/* =========================================
+   IDs PERSONALIZADOS
+========================================= */
+
+#filmes{
+    border-top: 5px solid red;
+}
+
+#musica{
+    border-top: 5px solid green;
+}
+
+#games{
+    border-top: 5px solid blue;
+}
